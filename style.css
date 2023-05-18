@@ -1,3 +1,53 @@
-h1 {
-  color: red;
+.mainDiv {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  height: 400px;
+  padding: 50px;
+  border: 6px solid red;
+}
+
+.screen {
+  width: 450px;
+  height: 80px;
+  margin: auto;
+  border: 2px solid green;
+  margin-bottom: 50px;
+}
+
+.firstInput {
+  float: left;
+  margin-left: 23px;
+  margin-right: 57px;
+  margin-bottom: 75px;
+}
+
+.seceondInput {
+  margin-bottom: 75px;
+}
+
+.firstInput input {
+  width: 180px;
+  height: 25px;
+}
+
+.seceondInput input {
+  width: 180px;
+  height: 25px;
+}
+
+.button {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button button {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 35px;
+  color: blue;
+  border: 1px dotted blue;
 }/*# sourceMappingURL=style.css.map */

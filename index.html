@@ -9,6 +9,72 @@
     <title>Basic Calculator</title>
 </head>
 <body>
-    <h1>hellow</h1>
+
+
+
+    <script>
+            function addition(){
+                var a = FirstInputNumber.value;
+                var b = SeceondInputNumber.value;
+                var c = window.parseInt(a);
+                var d = window.parseInt(b);
+                var e = c+d;
+                console.log (e);
+            }
+
+            function subtraction(){
+                var f = document.getElementById('FirstInputNumber');
+                var g = document.getElementById('SeceondInputNumber');
+                var h = window.parseInt(f.value);
+                var i = window.parseInt(g.value);
+                var j = h-i;
+                console.log(j);
+            }
+
+            function multiplication(){
+                var k = window.parseInt(FirstInputNumber.value);
+                var l = window.parseInt(SeceondInputNumber.value);
+                var m = k*l;
+                console.log(m);
+            }
+
+            function division(){
+                var n = window.parseInt(FirstInputNumber.value);
+                var o = window.parseInt(SeceondInputNumber.value); 
+                console.log(n/o);
+            }
+    </script>
+
+
+
+    <div class="mainDiv">
+        <div class="secondMainDiv">
+            <div class="screen">
+                 
+            </div>
+            <div class="firstInput">
+                <input 
+                type="number"
+                placeholder="First Number"
+                id="FirstInputNumber"
+                value=""               
+                />
+            </div>
+            <div class="seceondInput">
+                <input 
+                type="number"
+                placeholder="Seceond Number"
+                id="SeceondInputNumber"
+                value=""
+                />
+            </div>
+            <div class="button">
+                <button type="button" onclick="addition()">+</button>
+                <button type="button" onclick="subtraction()">-</button>
+                <button type="button" onclick="multiplication()">*</button>
+                <button type="button" onclick="division()">/</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
