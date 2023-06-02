@@ -13,13 +13,24 @@
 
 
     <script>
+    
+            function screenshow(value){
+                var a = document.getElementById('showtotal');
+                
+                
+                
+            }
+
+         
+
             function addition(){
                 var a = FirstInputNumber.value;
                 var b = SeceondInputNumber.value;
                 var c = window.parseInt(a);
                 var d = window.parseInt(b);
                 var e = c+d;
-                console.log (e); // console.log na likhleo eta console e print hoeche click hole.
+                console.log (e)
+                screenshow(e);
             }
 
             function subtraction(){
@@ -50,7 +61,7 @@
     <div class="mainDiv">
         <div class="secondMainDiv">
             <div class="screen">
-                 <span id="showtotal"></span>
+                 <input id="showtotal" value=""/>
             </div>
             <div class="firstInput">
                 <input 
